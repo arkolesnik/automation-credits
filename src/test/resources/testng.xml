@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Demo Selenium test" parallel="false">
+    <test name="Fill in Personal loan request" preserve-order="true">
+        <classes>
+            <class name="test_classes.ExampleTest"/>
+            <methods>
+                <include name="checkPersonalLoans">
+                    <parameter name="amount" value="15000"/>
+                </include>
+            </methods>
+        </classes>
+    </test>
+</suite>
